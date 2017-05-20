@@ -1,0 +1,30 @@
+body {
+	color: Darkgray; 
+	background-color: #800000;
+	font-size: 1.1em; /*tamanho da fonte que sera usada dentro de body*/
+	margin: 0 auto; /*alinhando ao centro*/
+	width: 90%; /* definindo a largura que o body tera */
+	max-width: 800px; /* largura maxima que body podera ter*/
+}
+
+img.dog {
+	width: 12em; /*Largura da imagem*/
+	height: 12em; /*Altura da Imagem*/
+}
+
+img.dog { 
+	border: 2px #000 solid;
+	border-radius: 50%;
+}
+
+img.dog:hover {
+	width: 100%; /*Largura da da imagem ao passar o mouse*/
+	height: 100%; /*altura da imagem ao passar mouse*/
+	border-radius: 5px; /*tamanho do arredondamento da borda ao passar o mouse*/
+	transition: .1s; /*Tempo de transição dos elementos a cima */
+}
+
+
+figure legend {
+	color: #808080;
+}
