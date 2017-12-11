@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
-            // Exibe ou oculta o botão
+            // Exibir e/ou Ocultar Botão
             jQuery(window).scroll(function() {
                 if (jQuery(this).scrollTop() > 450) {
                     jQuery('.voltar-ao-topo').fadeIn(450);
@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
                 }
             });
             
-            // Faz animação para subir
+            // Efeito de animação
             jQuery('.voltar-ao-topo').click(function(event) {
                 event.preventDefault();
                 jQuery('html, body').animate({scrollTop: 0}, 1000);
