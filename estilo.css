@@ -1,0 +1,22 @@
+.voltar-ao-topo {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+   	color: #fff;
+    background: rgba(0, 0, 0, 0.3) url("img/scroll-arrow-to-up.png") center center no-repeat;
+    font-size: 12px;
+    padding: 20px;
+    display: none;
+	        }
+.voltar-ao-topo:hover {
+	cursor: pointer;
+	color: #000;
+    background-color: rgba(0, 0, 0, 0.6) ;
+	transition: .2s ease-in;
+	        }
+
+.voltar-ao-topo a {
+	color: #e00109;
+
+}
