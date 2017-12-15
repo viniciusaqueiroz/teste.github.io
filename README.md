@@ -1,2 +1,2 @@
-Scroll-Top com JavaScrip/Jquery & CSS Style
+Scroll-Top com JavaScrip/JQuery & CSS Style
 
